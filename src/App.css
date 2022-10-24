@@ -36,3 +36,185 @@
     transform: rotate(360deg);
   }
 }
+.name {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Quattrocento Sans', sans-serif;
+
+}
+.intro{
+  font-weight: 700;
+  font-size: 20px;
+  color:#7980fb;
+  font-family: 'Quattrocento Sans', sans-serif;
+
+}
+.link-to-proj{
+  margin: 40px;
+}
+.home{
+  background-color: rgb(54,84,109);
+}
+#about{
+  color:#f9f0e1;
+  margin-top: 35px;
+}
+.abouth2{
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.aboutp{
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.pfp{
+  border:4px solid #f9f0e1;
+  border-radius: 50%;
+  height: 400px;
+  width:400px;
+}
+.cd-intro{
+  margin-bottom: 50px;
+}
+#hero-area {
+  background: url('https://i.imgur.com/oNkYjlL.jpg') no-repeat 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 230px 0;
+  color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+
+  }
+  .block {
+    position: relative;
+    z-index: 9;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: rgb(26, 23, 23);
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: rgb(244, 242, 242);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+  }
+  .btn {
+    background: button-bg;
+    border: none;
+    color: white;
+    padding: 20px 35px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-size: 13px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    border-radius: 0;
+  }
+
+
+
+
+
+/* projects css */
+
+
+
+
+
+
+.va {
+  display: flex;
+  align-items: center;
+}
+
+.hero,
+.cta {
+  background: url(https://i.imgur.com/hQoJ6Dx.png?1), linear-gradient(52deg, #42475C 0%, #20222E 71%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta {
+  height: 500px;
+  border-top: 10px solid turquoise;
+}
+
+footer {
+  color: white;
+  background: rgb(14, 14, 14) !important;
+}
+
+footer strong {
+  color: turquoise;
+}
+
+footer a {
+  color: turquoise;
+}
+
+
+
+hr.content-divider {
+  max-width: 75px;
+  height: 5px;
+}
+
+#parallax-1 {
+  background: url(https://i.imgur.com/MkV6lnv.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid rgb(245, 67, 67);
+}
+
+#parallax-1 hr {
+  background: rgb(245, 67, 67);
+}
+
+#parallax-2 {
+  background: url(https://i.imgur.com/kpeKc2E.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid yellow;
+}
+
+#parallax-2 hr {
+  background: yellow;
+}
+
+
+#parallax-3 {
+  background: url(https://source.unsplash.com/featured/?city);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid hotpink;
+}
+
+#parallax-3 hr {
+  background: hotpink;
+}
+
+.label {
+  color: white;
+}
+
+
