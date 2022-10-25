@@ -123,8 +123,14 @@
     letter-spacing: normal;
     border-radius: 0;
   }
-
-
+  .section-heading{
+    color:#f9f0e1;
+    margin-top:20px
+  }
+.latest{
+  color:#f9f0e1;
+  font-size: 40px;
+}
 
 
 
