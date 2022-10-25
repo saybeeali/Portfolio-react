@@ -36,6 +36,9 @@
     transform: rotate(360deg);
   }
 }
+nav{
+  background-color: #20222E;
+}
 .name {
   font-size: 30px;
   font-weight: 600;
@@ -180,29 +183,52 @@ hr.content-divider {
 }
 
 #parallax-1 {
-  background: url(https://i.imgur.com/MkV6lnv.png);
-  background-attachment: fixed;
-  background-position: center;
+  background: url(https://i.imgur.com/pufQgFW.jpg);
+  /* background-attachment: fixed; */
+  background-position:20px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   border-top: 10px solid rgb(245, 67, 67);
 }
 
 #parallax-1 hr {
   background: rgb(245, 67, 67);
 }
+.bravado-title{
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'Quattrocento Sans', sans-serif;
 
-#parallax-2 {
-  background: url(https://i.imgur.com/kpeKc2E.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top: 10px solid yellow;
+
+}
+.bravado{
+  font-size: 20px;
+  color:rgb(245, 4, 4);
+  padding:20px
 }
 
+#parallax-2 {
+  background: url(https://i.imgur.com/9F4f5dI.png);
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top: 10px solid yellow;
+  background-color: #20222E;
+}
+.button{
+  margin:20px;
+}
 #parallax-2 hr {
   background: yellow;
+}
+.anime-title{
+  font-size: 40px;
+  color:coral;
+}
+.anime{
+  color:aliceblue;
+  font-size: 20px;
 }
 
 
