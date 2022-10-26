@@ -2,7 +2,7 @@ import '../App.css'
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
-
+import 'bulma/css/bulma.min.css';
 function Home(props){
     return (
         <div class ='home'>
@@ -51,8 +51,8 @@ About Section Start
 
         <img src='https://i.imgur.com/dwNr1Vy.jpg' class ='pfp'/>
         <div class='icons'>
-        <a href='https://github.com/saybeeali' target='_blank' class ='icon-links'><FontAwesomeIcon icon={brands('github')} size='5x' beatFade/></a>
-        <a href='https://www.linkedin.com/in/sohaib-ali-swe/' target='_blank' class ='icon-links'><FontAwesomeIcon icon={brands('linkedin')} size='5x' beat/></a>
+        <a href='https://github.com/saybeeali' target='_blank' class ='icon-links has-text-warning-light'><FontAwesomeIcon icon={brands('github')} size='5x' beatFade/></a>
+        <a href='https://www.linkedin.com/in/sohaib-ali-swe/' target='_blank' class ='icon-links has-text-warning-light'><FontAwesomeIcon icon={brands('linkedin')} size='5x' beat/></a>
         </div>
         
           <p class ='aboutp'>
