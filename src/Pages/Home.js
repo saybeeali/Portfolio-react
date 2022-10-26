@@ -1,5 +1,7 @@
 import '../App.css'
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Home(props){
     return (
@@ -17,6 +19,7 @@ function Home(props){
               <span>HI, MY NAME IS Sohaib &amp; I AM A</span><br/>
               Software Engineer
              
+
               
             </h1>
           </section>
@@ -47,7 +50,13 @@ About Section Start
           </h2>
 
         <img src='https://i.imgur.com/dwNr1Vy.jpg' class ='pfp'/>
+        <div class='icons'>
+        <a href='https://github.com/saybeeali' target='_blank' class ='icon-links'><FontAwesomeIcon icon={brands('github')} size='5x' beatFade/></a>
+        <a href='https://www.linkedin.com/in/sohaib-ali-swe/' target='_blank' class ='icon-links'><FontAwesomeIcon icon={brands('linkedin')} size='5x' beat/></a>
+        </div>
+        
           <p class ='aboutp'>
+          
             From building single page games to full-stack websites, I'm a Software Engineer who is dedicated to learn new things and develop my software skills to produce the best product possible. <br/>
             I'm effective and driven about working solo and in teams and my skill set includes Python, JavaScript,Node.js and React.
 
