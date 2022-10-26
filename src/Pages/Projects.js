@@ -5,7 +5,7 @@ import 'bulma/css/bulma.min.css';
 function Projects(){
     return(
     <div class = 'projects'>
-<h1>projects</h1>
+
 <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">

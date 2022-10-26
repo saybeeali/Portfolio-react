@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './main.scss'
 import NavigationBar from './Components/NavigationBar';
 import { Route, Routes } from "react-router-dom";
 // IMPORT PAGES
