@@ -10,9 +10,9 @@ function NavigationBar(props) {
               <a href='/' className='navbar-item has-text-white'>
                 Home
               </a>
-              <a href='/Projects' className='navbar-item has-text-white'>
-                Projects
-              </a>
+              <p className="navbar-item has-text-white"><Link to="/Projects">
+          PROJECTS
+        </Link></p>
             </div>
           </div>
         </div>
