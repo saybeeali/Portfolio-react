@@ -50,11 +50,16 @@ About Section Start
           </h2>
 
         <img src='https://i.imgur.com/dwNr1Vy.jpg' class ='pfp'/>
+        <ul>
+        <li class= 'px-5'><FontAwesomeIcon icon={solid('phone')} /> 917-257-2225</li>
+	<li ><FontAwesomeIcon icon={solid('envelope')} /> saybe.ali0618@gmail.com</li>
+	
+</ul>
         <div class='icons'>
-        <a href='https://github.com/saybeeali' target='_blank' class ='icon-links has-text-warning-light'><FontAwesomeIcon icon={brands('github')} size='5x' beatFade/></a>
-        <a href='https://www.linkedin.com/in/sohaib-ali-swe/' target='_blank' class ='icon-links has-text-warning-light'><FontAwesomeIcon icon={brands('linkedin')} size='5x' beat/></a>
+        <a href='https://www.linkedin.com/in/sohaib-ali-swe/' target='_blank' class ='icon-links has-text-warning-light'><FontAwesomeIcon icon={brands('linkedin')} size='5x' /></a>
+       
         </div>
-        
+      
           <p class ='aboutp'>
           
             From building single page games to full-stack websites, I'm a Software Engineer who is dedicated to learn new things and develop my software skills to produce the best product possible. <br/>
@@ -79,10 +84,16 @@ About Section Start
 ==================================================
 Portfolio Section Start
 ================================================== --> */}
+
 <section id="works" class="works">
+<hr/>
   <div class="container">
     <div class="section-heading">
       <h1 class="latest">Latest Works</h1>
+      <div class='icons'>
+        <a href='https://github.com/saybeeali' target='_blank' class ='icon-links has-text-warning-light'><FontAwesomeIcon icon={brands('github')} size='5x' beatFade/></a>
+       
+        </div>
       <p class="projects">
         Check out all my projects!<br/>
         <h2 class='button is-white is-medium is-inverted'><Link to="/Projects">

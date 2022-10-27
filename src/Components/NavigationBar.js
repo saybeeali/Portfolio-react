@@ -17,18 +17,7 @@ function NavigationBar(props) {
           </div>
         </div>
       </nav>
-    //     <nav>
-    //         <h2>
-    //     <Link to="/">
-    //       Home
-    //     </Link>
-    //     </h2>
-    //     <h2>
-    //     <Link to="/Projects">
-    //     Projects
-    //   </Link>
-    //   </h2>
-    //   </nav>
+
     )
   }
   

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './main.scss'
 import NavigationBar from './Components/NavigationBar';
+import Footer from './Components/Footer';
 import { Route, Routes } from "react-router-dom";
 // IMPORT PAGES
 import Home from "./Pages/Home";
@@ -16,6 +17,7 @@ function App() {
 
         
       </Routes>
+      <Footer/>
     
     </div>
   );
