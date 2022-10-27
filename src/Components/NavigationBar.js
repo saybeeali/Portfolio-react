@@ -7,11 +7,11 @@ function NavigationBar(props) {
         <div id='navbarBasicExample' className='navbar-menu'>
           <div className='navbar-start'>
             <div className='navbar-item is-size-4 '>
-              <a href='/' className='navbar-item has-text-white'>
-                Home
-              </a>
+            <Link to="/">
+          Home
+        </Link>
               <p className="navbar-item has-text-white"><Link to="/Projects">
-          PROJECTS
+          Projects
         </Link></p>
             </div>
           </div>
